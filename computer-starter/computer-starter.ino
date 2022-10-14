@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-#include <credentials.hpp>
+#include "credentials.h"
 
 #define POWER_PIN_1 5
 #define POWER_PIN_2 4
