@@ -44,7 +44,7 @@ void setup() {
 }
 
 void loop() {
-    status_led = !status_led;
+    status_led = false;
     digitalWrite(LED_BUILTIN, status_led);
 
     if (WiFi.status() != WL_CONNECTED) {
